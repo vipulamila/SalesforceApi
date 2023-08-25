@@ -1,4 +1,4 @@
-@RestResource(urlMapping='/saleforceApi/*')
+@RestResource(urlMapping='/api/Webhooks/saleforceApi/*')
 global with sharing class SalesforceApi {
     @HttpPost
     global static void webHookSubscriptionDemo() {
